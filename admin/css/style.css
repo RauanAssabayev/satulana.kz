@@ -1,0 +1,213 @@
+body{
+	background-color: white !important;
+    margin:0px;
+    padding:0px;
+}
+.main-wrapper{
+    width: 1000px;
+    height: 100%;
+    background-color: white;
+    margin:0px auto;
+}
+
+
+@font-face {
+    font-family: 'GeometricaSans';
+    src: url('../../font/GeometricaSans-Regular.ttf');
+}
+
+.login{
+    width: 400px;
+    height: 400px;
+    margin:10px auto;
+}
+.login>form>div>label{
+    float: left;
+}
+
+.login>form>input{
+    display: block;
+} 
+
+.logo>img{
+    margin: 0px auto;
+    display: block;
+}
+.login>form>div>label{
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 25px;
+}
+.login>form>div>input{
+    height: 25px;
+    width: 250px;
+}
+.label-wrapper{
+    margin-top: 20px;
+    width: 400px;
+}
+
+.login>form>input[type=submit]{
+    width: 100px;
+    height: 30px;
+    float: left;
+    margin-top: 20px;
+    background-color: #4C4D47;
+    color: white;
+    border:none;
+    cursor: pointer;
+}
+#forgotpassword{
+    margin-top: 20px;
+    display: inline-block;
+    line-height: 30px;
+    text-decoration: underline;
+    margin-left: 15px;
+    color: #4C4D47;
+}
+.main-wrapper>ul{
+    padding-left: 0px;
+}
+.main-wrapper>ul>li{
+    list-style: none;
+    float: left;
+}
+.main-wrapper>ul>li>a{
+    text-decoration: none;
+}
+.product{
+    clear: both;
+    display: block;
+}
+
+.product>table{
+    border-collapse: collapse;
+    width: 1000px;
+    margin-top: 2   0px;
+}
+.product table,tr,th,td{
+    border-color: #DDDDDD !important;
+    text-align: center;
+}
+
+.product>h2{
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+}
+
+td>img{
+    width:50px; 
+    height:50px;
+}
+
+
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    border:none;
+    padding:8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-info{
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    border:none;
+    padding:8px;
+    border-radius: 5px;
+    display: block;
+    margin-left: 5px;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+}
+.active{
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.warning{
+    background-color: #f0ad4e !important;
+    border-color: #eea236 !important;
+    padding: 9px 5px 9px 5px;
+    float: right !important;
+}
+.danger{
+    background-color: #d9534f !important;
+    border-color: #d43f3a  !important;
+}
+.warning>.fa-angle-down{
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+}
+.actproduct{
+    display: none;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border:1px solid #2e6da4;;
+    width: 400px;
+    min-height: 230px;
+    box-shadow: 5px 5px 2px #888888;
+    margin-bottom: 30px;
+    top:50px;
+}
+.actproduct>h1{
+    width: 100%;
+    margin:0px;
+    height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    color: white;
+}
+.actproduct>form>input{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    padding: 5px 0px 5px 0px;
+}
+.actproduct>form>select{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    padding: 5px 0px 5px 0px;
+}
+.actproduct>form>input[type=submit]{
+    margin-bottom: 10px;
+}
+.actproduct>form>img{
+    width: 300px;
+    margin-left: 50px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.fa-angle-down>ul{
+    position: absolute;
+    margin-left: -78px;
+    
+    text-align: center;
+    display: none;
+}
+.fa-angle-down>ul>li{
+    list-style: none;
+    background: gray;
+    padding:2px 20px 2px 20px;
+    border-bottom: 1px solid white;
+}
+.fa-angle-down>ul>li>a{
+    color: white;
+    text-decoration: none;
+}

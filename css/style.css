@@ -1,0 +1,243 @@
+body{
+	background-color: #BFBFBF !important;
+    margin:0px;
+    padding:0px;
+}
+.main-wrapper{
+    width: 1000px;
+    height: 100%;
+    background-color: white;
+    margin:0px auto;
+}
+
+
+@font-face {
+    font-family: 'GeometricaSans';
+    src: url('../font/GeometricaSans-Regular.ttf');
+}
+
+.login>form>label{
+    float: left;
+}
+
+.login>form>input{
+    display: block;
+}
+    
+.main-menu>li{
+    font-family: 'GeometricaSans', sans-serif;
+    list-style: none;
+    float: left;
+    width: 100px;
+    display: inline-block;
+}
+
+.main-menu>li>a{
+    color: black;
+    text-decoration: none;
+}
+.logo>img{
+    margin: 0px auto;
+    display: block;
+}
+.main-menu{
+    margin: 0px auto;
+    display: block;
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+.main-category{
+    height: 800px;
+    width: 800px;
+    margin:20px auto;
+    display: block;
+    background-color: #E5E1E1;
+}
+.main-category>div{
+  width: 400px;
+  display: inline-block;
+  float: left;   
+  height: 400px; 
+}
+
+.artsb{
+    background-image: url("../img/arts/arts.png");
+     background-size: 100% 100%;
+}
+
+
+.postcardsb{
+    background-image: url("../img/postcards/postcards.png");
+    background-size: 100% 100%;
+}
+
+
+.middle{
+    color: white;
+    width: 400px;
+    height: 150px;
+    margin-top: 125px;
+    text-align: center;
+    font-family: 'GeometricaSans', sans-serif;
+}
+
+.middle>a{
+    color: white;
+    text-decoration: none;
+}
+
+.middle>a>h1{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+ .arrow-right{
+  margin-top: 140px;  
+  margin-left: 398px;
+  display: inline-block;
+  position: absolute;
+  z-index: 100000;
+  width: 0; 
+  height: 0; 
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-left: 60px solid #E5E1E1;
+}
+
+ .arrow-left{
+  margin-top: 140px;  
+  margin-left: -60px;
+  display: inline-block;
+  position: absolute;
+  z-index: 100000;
+  width: 0; 
+  height: 0; 
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-right: 60px solid #E5E1E1;
+}
+
+.about{
+    height: 600px;
+    width: 800px;
+    margin:20px auto;
+    display: block;
+    background-color: white;
+}
+.about>p{
+    font-family: 'GeometricaSans';
+    color: #C3C3C3;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.about>h1{
+    color: #666666;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'GeometricaSans';
+}
+.instagram{
+   width: 760px;
+   height: 300px;
+   margin:10px auto; 
+}
+.instagram>img{
+    width: 250px;
+    height: 300px;
+}
+
+.contacts{
+    width: 1000px;
+    height: 600px;
+    margin: 0px auto;
+    display: block;
+    background-color: white;
+    background-image: url('../img/contacts.png');
+    background-size: 100% 100%;
+}
+.contacts>h1{
+    color: white;
+    font-family: 'GeometricaSans';
+    display: inline-block;
+    margin: 30px auto;
+    text-align: center;
+    width: 100%;
+}
+.contacts>form>input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px dashed gray;
+    padding:5px;
+    margin-top:20px;
+    color: white;
+}
+.contacts>form>textarea{
+    border: none;
+    background-color: transparent;
+    border: 1px dashed gray;
+    padding:5px;
+    margin-top:20px;
+    color: white;
+    width: 800px;
+    height: 250px;
+    margin-left: 100px;
+}
+.contacts>form>input[type=submit]{
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    display: block;
+    margin:10px auto;
+    cursor: pointer;
+    font-family: 'GeometricaSans';
+    letter-spacing: 3px;
+    font-weight: bold;
+
+}
+#fname{
+    width: 800px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+#fphone{
+    width: 375px;
+    margin-left: 100px;
+}
+#femail{
+    width: 375px;
+    margin-left: 35px;
+}
+.footer{
+    width: 1000px;
+    height: 200px;
+    background-color: black;
+}
+.footer>a{
+    text-decoration: none;
+}
+.footer>a>.fa-angle-up{
+    font-size: 60px;
+    display: block;
+    text-align: center;
+    color: #4E4E4E;
+}
+.footer>a>.fa-instagram{
+    font-size: 40px;
+    text-align: center;
+    line-height: 50px;
+    display:block;
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+    background-color: #4E4E4E;
+    color: white;
+    border-radius: 50%;
+}
+.footer>p{
+    font-family: 'GeometricaSans';
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
